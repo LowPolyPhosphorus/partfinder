@@ -1,0 +1,93 @@
+/* ============================================================
+   DESIGN TOKENS — the lab-notebook-in-a-dark-room identity
+   ============================================================ */
+:root {
+  /* color */
+  --bg: #16140f;           /* warm near-black, base */
+  --panel: #211e17;        /* one step up — box containers sit here */
+  --panel-raised: #2a2620; /* tabs, hover states */
+  --paper: #f2ead8;        /* cream — item card surface */
+  --paper-line: #e3d9c2;   /* faint rule on paper cards */
+  --rust: #e8513a;         /* primary accent — soldering-iron heat */
+  --rust-dim: #b8412f;
+  --sage: #7a8471;         /* secondary accent — PCB silkscreen green */
+  --ink: #2a2620;           /* text on paper */
+  --ink-soft: #5c5648;
+  --fg: #ece6d6;           /* text on dark */
+  --fg-dim: #9b9384;       /* secondary text on dark */
+  --fg-faint: #6b6557;
+  --border: #3a352b;
+  --danger: #c44536;
+
+  /* type */
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* layout */
+  --radius: 3px;
+  --radius-lg: 6px;
+  --max-width: 1180px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+body {
+  /* faint graph-paper texture on the dark shell, very low contrast */
+  background-image:
+    linear-gradient(var(--border) 1px, transparent 1px),
+    linear-gradient(90deg, var(--border) 1px, transparent 1px);
+  background-size: 32px 32px;
+  background-attachment: fixed;
+  background-position: -1px -1px;
+}
+
+a { color: var(--rust); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+button {
+  font-family: var(--font-body);
+  cursor: pointer;
+}
+
+input, textarea, select {
+  font-family: var(--font-body);
+}
+
+::selection {
+  background: var(--rust);
+  color: var(--paper);
+}
+
+/* visible keyboard focus everywhere, no exceptions */
+:focus-visible {
+  outline: 2px solid var(--rust);
+  outline-offset: 2px;
+}
+
+/* scrollbar, quiet */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 5px; }
+::-webkit-scrollbar-thumb:hover { background: var(--fg-faint); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

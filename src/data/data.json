@@ -1,0 +1,1922 @@
+{
+  "items": [
+    {
+      "id": "wires-dupont-connector-A1",
+      "name": "Wires (DuPont connector)",
+      "box": "A",
+      "slot": "A1",
+      "qty": 1,
+      "category": "Wires",
+      "tags": [
+        "dupont",
+        "jumper"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "breadboards-A2",
+      "name": "Breadboards",
+      "box": "A",
+      "slot": "A2",
+      "qty": 1,
+      "category": "Prototyping",
+      "tags": [
+        "breadboard"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "nfc-stickers-A2",
+      "name": "NFC stickers",
+      "box": "A",
+      "slot": "A2",
+      "qty": 1,
+      "category": "RFID/NFC",
+      "tags": [
+        "nfc"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "nfc-card-A2",
+      "name": "NFC Card",
+      "box": "A",
+      "slot": "A2",
+      "qty": 1,
+      "category": "RFID/NFC",
+      "tags": [
+        "nfc"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "nfc-keychain-button-A2",
+      "name": "NFC keychain button",
+      "box": "A",
+      "slot": "A2",
+      "qty": 1,
+      "category": "RFID/NFC",
+      "tags": [
+        "nfc"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "elegoo-ir-remote-A2",
+      "name": "Elegoo IR remote",
+      "box": "A",
+      "slot": "A2",
+      "qty": 1,
+      "category": "IR",
+      "tags": [
+        "elegoo",
+        "ir",
+        "remote"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "aux-1-5mm-cable-A2",
+      "name": "AUX 1.5mm Cable",
+      "box": "A",
+      "slot": "A2",
+      "qty": 1,
+      "category": "Audio",
+      "tags": [
+        "aux",
+        "cable"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "aux-1-5mm-1-to-5-splitter-A2",
+      "name": "AUX 1.5mm 1 to 5 splitter",
+      "box": "A",
+      "slot": "A2",
+      "qty": 1,
+      "category": "Audio",
+      "tags": [
+        "aux",
+        "splitter"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "power-meter-with-screen-A2",
+      "name": "Power meter with screen",
+      "box": "A",
+      "slot": "A2",
+      "qty": 3,
+      "category": "Power",
+      "tags": [
+        "power",
+        "meter",
+        "display"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "serial-sata-data-connector-A2",
+      "name": "Serial SATA data connector",
+      "box": "A",
+      "slot": "A2",
+      "qty": 3,
+      "category": "Cables",
+      "tags": [
+        "sata"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "seeed-studio-ufl-2-4g-a-01-sticker-anten-A2",
+      "name": "Seeed Studio uFL 2.4G A-01 sticker antenna",
+      "box": "A",
+      "slot": "A2",
+      "qty": 1,
+      "category": "RF/Antennas",
+      "tags": [
+        "seeed",
+        "ufl",
+        "antenna",
+        "2.4ghz"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "kickpi-k2b-1-1-B2",
+      "name": "KickPi K2B 1.1",
+      "box": "B",
+      "slot": "B2",
+      "qty": 1,
+      "category": "SBC",
+      "tags": [
+        "sbc",
+        "kickpi"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "zerolink-4-port-usb-hub-for-rpi-zero-w-B2",
+      "name": "ZeroLink 4-port USB hub for RPi Zero W",
+      "box": "B",
+      "slot": "B2",
+      "qty": 1,
+      "category": "SBC Accessories",
+      "tags": [
+        "rpi",
+        "zero",
+        "usb hub"
+      ],
+      "notes": "Listed as 'zero4u'",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "orange-pi-zero3-2gb-B2",
+      "name": "Orange Pi Zero3 2GB",
+      "box": "B",
+      "slot": "B2",
+      "qty": 1,
+      "category": "SBC",
+      "tags": [
+        "sbc",
+        "orangepi",
+        "zero3"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "rpi-40-pin-ide-cable-B2",
+      "name": "RPi 40-pin IDE cable",
+      "box": "B",
+      "slot": "B2",
+      "qty": 1,
+      "category": "SBC Accessories",
+      "tags": [
+        "rpi",
+        "gpio",
+        "ribbon cable"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "le-potato-sbc-B2",
+      "name": "Le Potato SBC",
+      "box": "B",
+      "slot": "B2",
+      "qty": 1,
+      "category": "SBC",
+      "tags": [
+        "sbc",
+        "le potato",
+        "libre computer"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "labist-rpi-camera-b01-B2",
+      "name": "LABIST RPi Camera B01",
+      "box": "B",
+      "slot": "B2",
+      "qty": 1,
+      "category": "SBC Accessories",
+      "tags": [
+        "rpi",
+        "camera"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "rpi-sense-hat-v1-B2",
+      "name": "RPi Sense HAT v1",
+      "box": "B",
+      "slot": "B2",
+      "qty": 1,
+      "category": "SBC Accessories",
+      "tags": [
+        "rpi",
+        "hat",
+        "sensehat",
+        "sensors"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "rpi-breakout-board-2-pin-B2",
+      "name": "RPi breakout board (2-pin)",
+      "box": "B",
+      "slot": "B2",
+      "qty": 2,
+      "category": "SBC Accessories",
+      "tags": [
+        "rpi",
+        "breakout",
+        "gpio"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "rpi-breakout-board-2-pin-with-mounting-h-B2",
+      "name": "RPi breakout board (2-pin, with mounting holes)",
+      "box": "B",
+      "slot": "B2",
+      "qty": 2,
+      "category": "SBC Accessories",
+      "tags": [
+        "rpi",
+        "breakout",
+        "gpio",
+        "mounting holes"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "elegoo-r3-clear-case-C1",
+      "name": "Elegoo R3 (clear case)",
+      "box": "C",
+      "slot": "C1",
+      "qty": 2,
+      "category": "Arduino",
+      "tags": [
+        "elegoo",
+        "uno",
+        "r3"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "elegoo-r3-blue-case-C1",
+      "name": "Elegoo R3 (blue case)",
+      "box": "C",
+      "slot": "C1",
+      "qty": 1,
+      "category": "Arduino",
+      "tags": [
+        "elegoo",
+        "uno",
+        "r3"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "elegoo-r3-lego-case-C1",
+      "name": "Elegoo R3 (lego case)",
+      "box": "C",
+      "slot": "C1",
+      "qty": 1,
+      "category": "Arduino",
+      "tags": [
+        "elegoo",
+        "uno",
+        "r3",
+        "lego case"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "elegoo-r3-clear-case-tft-touchscreen-C1",
+      "name": "Elegoo R3 (clear case + TFT touchscreen)",
+      "box": "C",
+      "slot": "C1",
+      "qty": 1,
+      "category": "Arduino",
+      "tags": [
+        "elegoo",
+        "uno",
+        "r3",
+        "tft",
+        "touchscreen"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "og-arduino-uno-plexiglass-case-C1",
+      "name": "OG Arduino Uno (plexiglass case)",
+      "box": "C",
+      "slot": "C1",
+      "qty": 2,
+      "category": "Arduino",
+      "tags": [
+        "arduino",
+        "uno",
+        "official"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "fake-elegoo-r3-lego-case-C1",
+      "name": "Fake Elegoo R3 (lego case)",
+      "box": "C",
+      "slot": "C1",
+      "qty": 1,
+      "category": "Arduino",
+      "tags": [
+        "elegoo",
+        "uno",
+        "r3",
+        "clone",
+        "lego case"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "arduino-proto-shield-v5-C1",
+      "name": "Arduino proto shield v5",
+      "box": "C",
+      "slot": "C1",
+      "qty": 1,
+      "category": "Arduino Shields",
+      "tags": [
+        "arduino",
+        "shield",
+        "prototyping"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "arduino-nano-usb-c-C1",
+      "name": "Arduino Nano (USB-C)",
+      "box": "C",
+      "slot": "C1",
+      "qty": 1,
+      "category": "Arduino",
+      "tags": [
+        "arduino",
+        "nano",
+        "usb-c"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "arduino-uno-r4-esp32-wifi-C1",
+      "name": "Arduino Uno R4 (ESP32, WiFi)",
+      "box": "C",
+      "slot": "C1",
+      "qty": 1,
+      "category": "Arduino",
+      "tags": [
+        "arduino",
+        "uno r4",
+        "esp32",
+        "wifi"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "elegoo-esp-cam-C1",
+      "name": "Elegoo ESP-CAM",
+      "box": "C",
+      "slot": "C1",
+      "qty": 1,
+      "category": "ESP32",
+      "tags": [
+        "elegoo",
+        "esp32",
+        "camera",
+        "esp-cam"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "barrel-jack-psu-for-uno-C1",
+      "name": "Barrel jack PSU for Uno",
+      "box": "C",
+      "slot": "C1",
+      "qty": 1,
+      "category": "Power",
+      "tags": [
+        "arduino",
+        "uno",
+        "psu",
+        "barrel jack"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "arduino-breakout-board-C1",
+      "name": "Arduino breakout board",
+      "box": "C",
+      "slot": "C1",
+      "qty": 1,
+      "category": "Arduino Accessories",
+      "tags": [
+        "arduino",
+        "breakout"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "gikfun-proto-shield-with-headers-C2",
+      "name": "Gikfun proto shield (with headers)",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "Arduino Shields",
+      "tags": [
+        "gikfun",
+        "shield",
+        "prototyping"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "end-stop-switch-C2",
+      "name": "End stop switch",
+      "box": "C",
+      "slot": "C2",
+      "qty": 25,
+      "category": "Switches",
+      "tags": [
+        "endstop",
+        "limit switch",
+        "3d printer"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "solar-charge-controller-mini-jst-connect-C2",
+      "name": "Solar charge controller mini (JST connectors)",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "Power",
+      "tags": [
+        "solar",
+        "charge controller",
+        "jst"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "smoother-v1-0-C2",
+      "name": "Smoother v1.0",
+      "box": "C",
+      "slot": "C2",
+      "qty": 2,
+      "category": "Motor Drivers",
+      "tags": [
+        "smoother",
+        "stepper",
+        "3d printer"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "hack-club-macro-pad-pcb-C2",
+      "name": "Hack Club macro pad PCB",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "PCBs",
+      "tags": [
+        "hack club",
+        "macropad",
+        "pcb",
+        "keyboard"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "rfid-rc522-C2",
+      "name": "RFID-RC522",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "RFID/NFC",
+      "tags": [
+        "rfid",
+        "rc522"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "water-sensor-C2",
+      "name": "Water sensor",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "Sensors",
+      "tags": [
+        "sensor",
+        "water"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "38khz-ir-receiver-C2",
+      "name": "38kHz IR receiver",
+      "box": "C",
+      "slot": "C2",
+      "qty": 6,
+      "category": "IR",
+      "tags": [
+        "ir",
+        "receiver",
+        "38khz"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "38khz-ir-transmitter-C2",
+      "name": "38kHz IR transmitter",
+      "box": "C",
+      "slot": "C2",
+      "qty": 5,
+      "category": "IR",
+      "tags": [
+        "ir",
+        "transmitter",
+        "38khz"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "hc-sr04-ultrasonic-sensor-C2",
+      "name": "HC-SR04 ultrasonic sensor",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "Sensors",
+      "tags": [
+        "sensor",
+        "ultrasonic",
+        "distance",
+        "hc-sr04"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "neopixel-jewel-C2",
+      "name": "Neopixel jewel",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "LEDs",
+      "tags": [
+        "neopixel",
+        "rgb",
+        "addressable led"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "neopixel-jewel-7-rgbw-natural-C2",
+      "name": "Neopixel jewel 7 RGBW (natural)",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "LEDs",
+      "tags": [
+        "neopixel",
+        "rgbw",
+        "addressable led"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "adafruit-ir-receiver-C2",
+      "name": "Adafruit IR receiver",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "IR",
+      "tags": [
+        "adafruit",
+        "ir",
+        "receiver"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "3-pin-low-power-laser-C2",
+      "name": "3-pin low power laser",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "Lasers",
+      "tags": [
+        "laser",
+        "diode"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "rotary-encoder-C2",
+      "name": "Rotary encoder",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "Input",
+      "tags": [
+        "rotary encoder",
+        "input"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "ky-037-sound-sensor-C2",
+      "name": "KY-037 sound sensor",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "Sensors",
+      "tags": [
+        "sensor",
+        "sound",
+        "microphone",
+        "ky-037"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "dc-motor-with-fan-C2",
+      "name": "DC motor with fan",
+      "box": "C",
+      "slot": "C2",
+      "qty": 2,
+      "category": "Motors",
+      "tags": [
+        "dc motor",
+        "fan"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "28byj-48-stepper-motor-5v-with-esp-cam-a-C2",
+      "name": "28BYJ-48 stepper motor (5V, with ESP-CAM attachment)",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "Motors",
+      "tags": [
+        "stepper",
+        "28byj-48",
+        "esp-cam"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "dfrobot-offline-language-model-esp32-sen-C2",
+      "name": "DFRobot Offline Language Model ESP32 SEN0539-EN",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "ESP32",
+      "tags": [
+        "dfrobot",
+        "esp32",
+        "sen0539",
+        "ai",
+        "offline llm"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "3-5mm-audio-jack-C2",
+      "name": "3.5mm audio jack",
+      "box": "C",
+      "slot": "C2",
+      "qty": 4,
+      "category": "Audio",
+      "tags": [
+        "audio",
+        "jack",
+        "3.5mm"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "breadboard-psu-C2",
+      "name": "Breadboard PSU",
+      "box": "C",
+      "slot": "C2",
+      "qty": 2,
+      "category": "Power",
+      "tags": [
+        "breadboard",
+        "psu"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "mmwave-sensor-C2",
+      "name": "mmWave sensor",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "Sensors",
+      "tags": [
+        "sensor",
+        "mmwave",
+        "radar",
+        "presence"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "geared-pancake-motor-C2",
+      "name": "Geared pancake motor",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "Motors",
+      "tags": [
+        "motor",
+        "geared",
+        "pancake"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "uln2003-stepper-motor-driver-board-C2",
+      "name": "ULN2003 stepper motor driver board",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "Motor Drivers",
+      "tags": [
+        "uln2003",
+        "stepper",
+        "driver"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "ds1307-real-time-clock-rtc-C2",
+      "name": "DS1307 Real-Time Clock (RTC)",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "Modules",
+      "tags": [
+        "rtc",
+        "ds1307",
+        "clock"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "stepper-motor-C2",
+      "name": "Stepper motor",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "Motors",
+      "tags": [
+        "stepper",
+        "motor"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "stepper-motor-attachments-C2",
+      "name": "Stepper motor attachments",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "Motors",
+      "tags": [
+        "stepper",
+        "attachments"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "1602a-lcd-display-blue-C2",
+      "name": "1602A LCD display (blue)",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "Displays",
+      "tags": [
+        "lcd",
+        "1602a",
+        "16x2"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "piezo-buzzer-C2",
+      "name": "Piezo buzzer",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "Audio",
+      "tags": [
+        "piezo",
+        "buzzer"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "battery-compartment-2x-aa-C2",
+      "name": "Battery compartment (2x AA)",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "Power",
+      "tags": [
+        "battery",
+        "aa",
+        "holder"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "keypad-1234567890-abcd-C2",
+      "name": "Keypad (1234567890 ABCD *#)",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "Input",
+      "tags": [
+        "keypad",
+        "matrix keypad"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "gy-521-breakout-board-C2",
+      "name": "GY-521 breakout board",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "Modules",
+      "tags": [
+        "gy-521",
+        "mpu6050",
+        "accelerometer",
+        "gyro"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "dht11-sensor-C2",
+      "name": "DHT11 sensor",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "Sensors",
+      "tags": [
+        "sensor",
+        "dht11",
+        "temperature",
+        "humidity"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "avr-atmel-jove-jve-m2-antenna-C2",
+      "name": "AVR ATMEL JOVE JVE M2 Antenna",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "RF/Antennas",
+      "tags": [
+        "antenna",
+        "jve m2",
+        "atmel"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "jve-m2-usb-adapter-C2",
+      "name": "JVE M2 USB adapter",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "Adapters",
+      "tags": [
+        "jve m2",
+        "usb adapter"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "8-pin-omnidirectional-whip-antenna-C2",
+      "name": "8-pin omnidirectional whip antenna",
+      "box": "C",
+      "slot": "C2",
+      "qty": 1,
+      "category": "RF/Antennas",
+      "tags": [
+        "antenna",
+        "whip",
+        "omnidirectional"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "generic-thumbstick-joystick-C2",
+      "name": "Generic thumbstick joystick",
+      "box": "C",
+      "slot": "C2",
+      "qty": 12,
+      "category": "Input",
+      "tags": [
+        "joystick",
+        "thumbstick",
+        "analog"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "7-raspberry-pi-hdmi-monitor-C3",
+      "name": "7\" Raspberry Pi HDMI monitor",
+      "box": "C",
+      "slot": "C3",
+      "qty": 1,
+      "category": "Displays",
+      "tags": [
+        "rpi",
+        "hdmi",
+        "monitor",
+        "7 inch"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "waveshare-pico-lcd-1-8-C3",
+      "name": "Waveshare Pico LCD 1.8",
+      "box": "C",
+      "slot": "C3",
+      "qty": 1,
+      "category": "Displays",
+      "tags": [
+        "waveshare",
+        "pico",
+        "lcd",
+        "1.8 inch"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "waveshare-pico-lcd-1-3-with-buttons-C3",
+      "name": "Waveshare Pico LCD 1.3 (with buttons)",
+      "box": "C",
+      "slot": "C3",
+      "qty": 1,
+      "category": "Displays",
+      "tags": [
+        "waveshare",
+        "pico",
+        "lcd",
+        "1.3 inch",
+        "buttons"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "2-8-tft-spi-240x320-touchscreen-C3",
+      "name": "2.8\" TFT SPI 240x320 touchscreen",
+      "box": "C",
+      "slot": "C3",
+      "qty": 3,
+      "category": "Displays",
+      "tags": [
+        "tft",
+        "spi",
+        "touchscreen",
+        "2.8 inch",
+        "240x320"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "4-arduino-display-with-case-C3",
+      "name": "4\" Arduino display (with case)",
+      "box": "C",
+      "slot": "C3",
+      "qty": 1,
+      "category": "Displays",
+      "tags": [
+        "arduino",
+        "display",
+        "4 inch"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "4-480x320-spi-tft-lcd-module-st7796-no-t-C3",
+      "name": "4\" 480x320 SPI TFT LCD module ST7796 (no touchscreen)",
+      "box": "C",
+      "slot": "C3",
+      "qty": 1,
+      "category": "Displays",
+      "tags": [
+        "tft",
+        "spi",
+        "st7796",
+        "4 inch",
+        "480x320"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "96-oled-blue-bracketed-C3",
+      "name": ".96 OLED (blue, bracketed)",
+      "box": "C",
+      "slot": "C3",
+      "qty": 1,
+      "category": "Displays",
+      "tags": [
+        "oled",
+        "0.96 inch"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "1-28-tft-round-display-C3",
+      "name": "1.28\" TFT round display",
+      "box": "C",
+      "slot": "C3",
+      "qty": 1,
+      "category": "Displays",
+      "tags": [
+        "tft",
+        "round",
+        "1.28 inch"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "esp32-c3-D1",
+      "name": "ESP32-C3",
+      "box": "D",
+      "slot": "D1",
+      "qty": 2,
+      "category": "ESP32",
+      "tags": [
+        "esp32",
+        "esp32-c3"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "tp4056-usb-c-charger-module-D2A",
+      "name": "TP4056 USB-C charger module",
+      "box": "D",
+      "slot": "D2A",
+      "qty": 12,
+      "category": "Power",
+      "tags": [
+        "tp4056",
+        "charger",
+        "usb-c",
+        "li-ion"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "micro-usb-charger-module-03962a-D2B",
+      "name": "Micro USB charger module (03962A)",
+      "box": "D",
+      "slot": "D2B",
+      "qty": 10,
+      "category": "Power",
+      "tags": [
+        "charger",
+        "micro usb",
+        "03962a"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "40-pin-headers-D3",
+      "name": "40-pin headers",
+      "box": "D",
+      "slot": "D3",
+      "qty": 40,
+      "category": "Connectors",
+      "tags": [
+        "headers",
+        "pin headers",
+        "40 pin"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "usb-c-bare-charger-6-16-pin-D4",
+      "name": "USB-C bare charger (6/16 pin)",
+      "box": "D",
+      "slot": "D4",
+      "qty": 1,
+      "category": "Power",
+      "tags": [
+        "usb-c",
+        "charger",
+        "bare"
+      ],
+      "notes": "6 and 16 pinned variants",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "usb-a-2-0-module-D5",
+      "name": "USB-A 2.0 module",
+      "box": "D",
+      "slot": "D5",
+      "qty": 9,
+      "category": "Connectors",
+      "tags": [
+        "usb-a",
+        "usb 2.0",
+        "module"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "rack-nut-D6",
+      "name": "Rack nut",
+      "box": "D",
+      "slot": "D6",
+      "qty": 100,
+      "category": "Hardware",
+      "tags": [
+        "rack nut",
+        "hardware",
+        "mounting"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "rack-screw-and-washer-D7",
+      "name": "Rack screw and washer",
+      "box": "D",
+      "slot": "D7",
+      "qty": 100,
+      "category": "Hardware",
+      "tags": [
+        "rack screw",
+        "washer",
+        "hardware"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "mini-directional-tactile-joystick-D8",
+      "name": "Mini directional tactile joystick",
+      "box": "D",
+      "slot": "D8",
+      "qty": 5,
+      "category": "Input",
+      "tags": [
+        "joystick",
+        "tactile",
+        "mini",
+        "directional"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "3-pin-slide-switch-D9",
+      "name": "3-pin slide switch",
+      "box": "D",
+      "slot": "D9",
+      "qty": 100,
+      "category": "Switches",
+      "tags": [
+        "slide switch",
+        "3 pin"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "tactile-button-switch-D10",
+      "name": "Tactile button switch",
+      "box": "D",
+      "slot": "D10",
+      "qty": 100,
+      "category": "Switches",
+      "tags": [
+        "tactile button",
+        "switch"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "crimp-connector-10-16-awg-D11",
+      "name": "Crimp connector (10-16 AWG)",
+      "box": "D",
+      "slot": "D11",
+      "qty": 1,
+      "category": "Connectors",
+      "tags": [
+        "crimp",
+        "connector",
+        "10-16 awg"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "crimp-connector-16-22-awg-D12B",
+      "name": "Crimp connector (16-22 AWG)",
+      "box": "D",
+      "slot": "D12B",
+      "qty": 1,
+      "category": "Connectors",
+      "tags": [
+        "crimp",
+        "connector",
+        "16-22 awg"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "pogo-pin-D12A",
+      "name": "Pogo pin",
+      "box": "D",
+      "slot": "D12A",
+      "qty": 1,
+      "category": "Connectors",
+      "tags": [
+        "pogo pin"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "cat8-shielded-keystone-D13",
+      "name": "Cat8 shielded keystone",
+      "box": "D",
+      "slot": "D13",
+      "qty": 1,
+      "category": "Networking",
+      "tags": [
+        "cat8",
+        "keystone",
+        "shielded",
+        "ethernet"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "mini-pir-sensor-D14",
+      "name": "Mini PIR sensor",
+      "box": "D",
+      "slot": "D14",
+      "qty": 4,
+      "category": "Sensors",
+      "tags": [
+        "pir",
+        "motion",
+        "mini"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "large-pir-sensor-D14",
+      "name": "Large PIR sensor",
+      "box": "D",
+      "slot": "D14",
+      "qty": 1,
+      "category": "Sensors",
+      "tags": [
+        "pir",
+        "motion",
+        "large"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "mt3098-D15A",
+      "name": "MT3098",
+      "box": "D",
+      "slot": "D15A",
+      "qty": 4,
+      "category": "Modules",
+      "tags": [
+        "mt3098"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "8x8-led-matrix-dot-D15B",
+      "name": "8x8 LED matrix (dot)",
+      "box": "D",
+      "slot": "D15B",
+      "qty": 1,
+      "category": "Displays",
+      "tags": [
+        "led matrix",
+        "8x8",
+        "dot matrix"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "4-digit-7-segment-display-D15B",
+      "name": "4-digit 7-segment display",
+      "box": "D",
+      "slot": "D15B",
+      "qty": 1,
+      "category": "Displays",
+      "tags": [
+        "7 segment",
+        "4 digit"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "1-digit-7-segment-display-D15B",
+      "name": "1-digit 7-segment display",
+      "box": "D",
+      "slot": "D15B",
+      "qty": 1,
+      "category": "Displays",
+      "tags": [
+        "7 segment",
+        "1 digit"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "10-segment-led-loading-bar-D15B",
+      "name": "10-segment LED loading bar",
+      "box": "D",
+      "slot": "D15B",
+      "qty": 1,
+      "category": "Displays",
+      "tags": [
+        "led",
+        "bar graph",
+        "loading bar"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "tactile-button-assorted-colors-D16",
+      "name": "Tactile button (assorted colors)",
+      "box": "D",
+      "slot": "D16",
+      "qty": 20,
+      "category": "Switches",
+      "tags": [
+        "tactile button",
+        "assorted",
+        "colored"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "led-assorted-colors-D17",
+      "name": "LED (assorted colors)",
+      "box": "D",
+      "slot": "D17",
+      "qty": 1,
+      "category": "LEDs",
+      "tags": [
+        "led",
+        "assorted",
+        "colored"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "solder-paste-D41",
+      "name": "Solder paste",
+      "box": "D",
+      "slot": "D41",
+      "qty": 1,
+      "category": "Tools/Consumables",
+      "tags": [
+        "solder paste",
+        "soldering"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "solder-flux-D41",
+      "name": "Solder flux",
+      "box": "D",
+      "slot": "D41",
+      "qty": 1,
+      "category": "Tools/Consumables",
+      "tags": [
+        "flux",
+        "soldering"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "sponge-D41",
+      "name": "Sponge",
+      "box": "D",
+      "slot": "D41",
+      "qty": 1,
+      "category": "Tools/Consumables",
+      "tags": [
+        "sponge",
+        "soldering"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "solder-D41",
+      "name": "Solder",
+      "box": "D",
+      "slot": "D41",
+      "qty": 1,
+      "category": "Tools/Consumables",
+      "tags": [
+        "solder",
+        "soldering"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "usb-dupont-cable-D42",
+      "name": "USB DuPont cable",
+      "box": "D",
+      "slot": "D42",
+      "qty": 3,
+      "category": "Cables",
+      "tags": [
+        "usb",
+        "dupont",
+        "cable"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "arduino-cable-D43",
+      "name": "Arduino cable",
+      "box": "D",
+      "slot": "D43",
+      "qty": 4,
+      "category": "Cables",
+      "tags": [
+        "arduino",
+        "cable"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "cat8-shielded-rj45-plug-D44",
+      "name": "Cat8 shielded RJ45 plug",
+      "box": "D",
+      "slot": "D44",
+      "qty": 1,
+      "category": "Networking",
+      "tags": [
+        "cat8",
+        "rj45",
+        "shielded",
+        "ethernet"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "ethernet-rubber-plug-cover-D45",
+      "name": "Ethernet rubber plug cover",
+      "box": "D",
+      "slot": "D45",
+      "qty": 1,
+      "category": "Networking",
+      "tags": [
+        "ethernet",
+        "rubber cover"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "perfboard-D46",
+      "name": "Perfboard",
+      "box": "D",
+      "slot": "D46",
+      "qty": 1,
+      "category": "Prototyping",
+      "tags": [
+        "perfboard",
+        "protoboard"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "1-3-oled-with-rotary-encoder-D48",
+      "name": "1.3\" OLED with rotary encoder",
+      "box": "D",
+      "slot": "D48",
+      "qty": 3,
+      "category": "Displays",
+      "tags": [
+        "oled",
+        "1.3 inch",
+        "rotary encoder"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "rp2040-pico-D49",
+      "name": "RP2040 Pico",
+      "box": "D",
+      "slot": "D49",
+      "qty": 3,
+      "category": "Microcontrollers",
+      "tags": [
+        "rp2040",
+        "pico",
+        "raspberry pi pico"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "orpheus-pico-rp2040-D49",
+      "name": "Orpheus Pico RP2040",
+      "box": "D",
+      "slot": "D49",
+      "qty": 1,
+      "category": "Microcontrollers",
+      "tags": [
+        "rp2040",
+        "pico",
+        "orpheus"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "rp2040-zero-D49",
+      "name": "RP2040 Zero",
+      "box": "D",
+      "slot": "D49",
+      "qty": 6,
+      "category": "Microcontrollers",
+      "tags": [
+        "rp2040",
+        "zero"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "esp-12f-D50",
+      "name": "ESP-12F",
+      "box": "D",
+      "slot": "D50",
+      "qty": 1,
+      "category": "ESP32",
+      "tags": [
+        "esp8266",
+        "esp-12f"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "esp32-s-D50",
+      "name": "ESP32-S",
+      "box": "D",
+      "slot": "D50",
+      "qty": 1,
+      "category": "ESP32",
+      "tags": [
+        "esp32",
+        "esp32-s"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    },
+    {
+      "id": "esp32-breakout-board-D51",
+      "name": "ESP32 breakout board",
+      "box": "D",
+      "slot": "D51",
+      "qty": 2,
+      "category": "ESP32",
+      "tags": [
+        "esp32",
+        "breakout"
+      ],
+      "notes": "",
+      "image": null,
+      "extra": {}
+    }
+  ],
+  "boxes": {
+    "A": {
+      "label": "Box A",
+      "slots": {
+        "A1": "Wires (DuPont connector)",
+        "A2": "Misc",
+        "A3": "Nothing"
+      }
+    },
+    "B": {
+      "label": "Box B",
+      "slots": {
+        "B1": "Nothing",
+        "B2": "SBCs and RPIs",
+        "B3": "Nothing"
+      }
+    },
+    "C": {
+      "label": "Box C",
+      "slots": {
+        "C1": "Arduinos",
+        "C2": "General Parts",
+        "C3": "Screens"
+      }
+    },
+    "D": {
+      "label": "Box D",
+      "slots": {
+        "D1": "ESP32-C3",
+        "D2A": "TP4056 chargers",
+        "D2B": "Micro USB chargers",
+        "D3": "40-pin headers",
+        "D4": "USB-C bare chargers",
+        "D5": "USB-A 2.0 modules",
+        "D6": "Rack nuts",
+        "D7": "Rack screws/washers",
+        "D8": "Mini tactile joysticks",
+        "D9": "3-pin slide switches",
+        "D10": "Tactile button switches",
+        "D11": "10-16 AWG crimp connectors",
+        "D12A": "Pogo pins",
+        "D12B": "16-22 AWG crimp connectors",
+        "D13": "Cat8 shielded keystones",
+        "D14": "PIR sensors",
+        "D15A": "MT3098",
+        "D15B": "Digit displays/matrices",
+        "D16": "Assorted tactile buttons",
+        "D17": "Assorted LEDs",
+        "D18-40": "Empty",
+        "D41": "Solder supplies",
+        "D42": "USB DuPont cables",
+        "D43": "Arduino cables",
+        "D44": "Cat8 RJ45 plugs",
+        "D45": "Ethernet rubber plug covers",
+        "D46": "Perfboards",
+        "D47": "Empty",
+        "D48": "1.3\" OLEDs w/ rotary encoders",
+        "D49": "RP2040 Picos/Zeros",
+        "D50": "ESP-12F/ESP32-S",
+        "D51": "ESP32 breakout boards"
+      }
+    }
+  }
+}
