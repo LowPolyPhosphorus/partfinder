@@ -6,6 +6,7 @@ import { BoxTabs } from './components/BoxTabs';
 import { SlotTabs } from './components/SlotTabs';
 import { SearchBar } from './components/SearchBar';
 import { ItemCard } from './components/ItemCard';
+import { ItemDetailPanel } from './components/ItemDetailPanel';
 import { ItemForm } from './components/ItemForm';
 import type { Item, ViewMode } from './lib/types';
 
@@ -17,6 +18,7 @@ export default function App() {
   const [query, setQuery] = useState('');
   const [activeBox, setActiveBox] = useState<string | null>(null);
   const [activeSlot, setActiveSlot] = useState<string | null>(null);
+  const [viewingItem, setViewingItem] = useState<Item | null>(null);
   const [editingItem, setEditingItem] = useState<Item | null>(null);
   const [creatingNew, setCreatingNew] = useState(false);
   const [showConnectStorage, setShowConnectStorage] = useState(false);
@@ -122,11 +124,23 @@ export default function App() {
             </div>
           ) : (
             visibleItems.map((item) => (
-              <ItemCard key={item.id} item={item} editable onEdit={setEditingItem} />
+              <ItemCard key={item.id} item={item} editable onView={setViewingItem} onEdit={setEditingItem} />
             ))
           )}
         </section>
       </main>
+
+      {viewingItem && (
+        <ItemDetailPanel
+          item={viewingItem}
+          editable
+          onEdit={(item) => {
+            setViewingItem(null);
+            setEditingItem(item);
+          }}
+          onClose={() => setViewingItem(null)}
+        />
+      )}
 
       {(editingItem || creatingNew) && (
         <ItemForm
