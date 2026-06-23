@@ -106,16 +106,40 @@ export function useInventory(ghConfig: GitHubConfig | null) {
 
   const uploadImage = useCallback(
     async (file: File, suggestedName: string): Promise<string | null> => {
-      if (!ghConfig) return null;
+      if (!ghConfig) {
+        console.error('uploadImage: no GitHub config connected');
+        throw new Error('Storage not connected — click "connect storage" first');
+      }
       const ext = file.name.split('.').pop() || 'jpg';
       const path = `public/images/${suggestedName}.${ext}`;
-      const base64 = await new Promise<string>((resolve, reject) => {
-        const reader = new FileReader();
-        reader.onload = () => resolve((reader.result as string).split(',')[1]);
-        reader.onerror = reject;
-        reader.readAsDataURL(file);
-      });
-      await putBinaryFile(ghConfig, path, base64, `Add image for ${suggestedName}`);
+      let base64: string;
+      try {
+        base64 = await new Promise<string>((resolve, reject) => {
+          const reader = new FileReader();
+          reader.onload = () => {
+            const result = reader.result as string;
+            const parts = result.split(',');
+            if (parts.length < 2 || !parts[1]) {
+              reject(new Error('Could not read image data (unexpected file format)'));
+              return;
+            }
+            resolve(parts[1]);
+          };
+          reader.onerror = () => reject(new Error('Failed to read the file from disk'));
+          reader.readAsDataURL(file);
+        });
+      } catch (err) {
+        console.error('uploadImage: FileReader failed', err);
+        throw err;
+      }
+
+      try {
+        await putBinaryFile(ghConfig, path, base64, `Add image for ${suggestedName}`);
+      } catch (err) {
+        console.error('uploadImage: GitHub write failed', err);
+        throw err;
+      }
+
       return `images/${suggestedName}.${ext}`;
     },
     [ghConfig]
