@@ -46,7 +46,7 @@ export function ConnectStorage({ onSave, onClose }: Props) {
           <h2>connect storage</h2>
           <button className="modal-close" onClick={onClose} aria-label="Close">×</button>
         </div>
-        <form onSubmit={handleSubmit} className="item-form">
+        <form onSubmit={handleSubmit} className="item-form modal-form-padded">
           <p className="gate-sub" style={{ margin: '0 0 4px' }}>
             paste a GitHub token so edits save permanently. needs Contents read/write
             on this repo (fine-grained token, scoped to just this repo).
