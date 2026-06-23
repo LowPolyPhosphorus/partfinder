@@ -3,7 +3,7 @@ import type { Item } from '../lib/types';
 import { Sidebar } from './Sidebar';
 
 interface Props {
-  item: Item | null;
+  item: Item | null; // null = creating new
   defaultBox?: string;
   defaultSlot?: string;
   onSave: (item: Omit<Item, 'id'> & { id?: string }) => void;
@@ -60,15 +60,28 @@ export function ItemForm({ item, defaultBox, defaultSlot, onSave, onDelete, onCl
   async function handleImageChange(e: React.ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0];
     if (!file) return;
+    if (file.size > 1_000_000) {
+      alert(
+        `That image is ${(file.size / 1_000_000).toFixed(1)}MB — GitHub's upload limit for this method is 1MB. Try a smaller/compressed image.`
+      );
+      e.target.value = '';
+      return;
+    }
     setUploading(true);
     const slug = (form.name || 'item').toLowerCase().replace(/[^a-z0-9]+/g, '-').slice(0, 40);
     try {
       const path = await onUploadImage(file, `${slug}-${Date.now()}`);
-      if (path) setForm((f) => ({ ...f, image: path }));
+      if (path) {
+        setForm((f) => ({ ...f, image: path }));
+      } else {
+        alert('Upload did not complete — no storage connected. Click "connect storage" first.');
+      }
     } catch (err) {
-      alert(err instanceof Error ? err.message : 'image upload failed');
+      console.error('Image upload failed:', err);
+      alert(err instanceof Error ? err.message : 'Image upload failed — see browser console for details.');
     } finally {
       setUploading(false);
+      e.target.value = '';
     }
   }
 
