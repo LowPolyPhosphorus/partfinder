@@ -460,10 +460,13 @@
 .modal-close:hover { color: var(--fg); }
 
 .item-form {
-  padding: 20px 24px 24px;
   display: flex;
   flex-direction: column;
   gap: 14px;
+}
+
+.modal-form-padded {
+  padding: 20px 24px 24px;
 }
 
 .form-field {
